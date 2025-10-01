@@ -1,0 +1,40 @@
+.card{
+    margin-bottom: 40px;
+}
+.btn{
+    background-color: rgb(105, 105, 109) ;
+    text-align: center;
+}
+.card-body{
+    /* padding-right: 20px; */
+    margin-top: 35px;
+}
+.productrow{
+    width: 100%;
+    /* padding:50px; */
+
+}
+.btn{
+    border: none;
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+}
+.favbtn{
+    position:relative;
+    top: 70px;
+    left: 300px;
+    z-index: 10000 !important;
+    border: none;
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+}
+.favbtn:hover{
+   
+    color: rgb(54, 51, 51);
+}
+.btn:hover{
+    border:1px solid black !important;
+    color: black;
+}

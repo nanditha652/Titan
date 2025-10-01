@@ -1,0 +1,108 @@
+.list li{
+    font-weight: bold;
+    margin: 15px;
+}
+.image{
+    width: 95%;
+    margin-left: 40px;
+}
+
+.row1{
+    display: flex;
+
+    padding: 50px;
+    margin-left: 20px;
+}
+.bag1{
+    width: 95%;
+}
+.bag2{
+    width:95%;
+
+}
+.list1 {
+  color: white;  
+  background: rgb(99, 97, 97);
+  padding: 20px;
+  box-sizing: border-box;
+  
+ 
+}
+
+
+.menu-row {
+  display: flex;
+
+}
+
+
+.menu-column {
+  width: 22%;
+  margin-right: -40px;
+}
+
+
+.menu-column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+
+.menu-column a {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+
+.menu-column a:hover {
+  text-decoration: underline;
+}
+
+
+.menu-column strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.row6{
+  display: flex;
+}
+
+
+.back1{
+   width: 100px;
+}
+.back2{
+  width: 110px;
+}
+.desgin svg{
+  padding: 5px;
+}
+.image4{
+  width: 300px;
+  padding: 10px;
+}
+.col3{
+  margin: 70px;
+}
+.col4{
+  margin: 70px;
+}
+.col8{
+  margin-left: 40px;
+}
+.col9{
+  margin-left: 170px;
+}
+.row11{
+  margin-left: 120px;
+  display: flex;
+}
+.tex4{
+  margin-left: 300px;
+}
