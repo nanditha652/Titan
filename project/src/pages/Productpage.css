@@ -28,11 +28,12 @@
     border: none;
     background-color: black;
     margin-bottom: 20px;
-    color: white;
+    color: black;
+    
 }
 .favbtn:hover{
    
-    color: rgb(54, 51, 51);
+    color:white;
 }
 .btn:hover{
     border:1px solid black !important;

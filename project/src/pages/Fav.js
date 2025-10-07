@@ -1,3 +1,5 @@
+import './Fav.css'
+
 import { useSelector, useDispatch } from 'react-redux';
 import { favdelete} from '../reactredux/Favslice';
 
@@ -17,7 +19,7 @@ function Favourite() {
                 <h5>{data.title}</h5>
                 <p>{data.price}</p> 
                  
-        <button onClick={()=>dispatch(favdelete(data))}>Delete</button>
+        <button className='btn8' onClick={()=>dispatch(favdelete(data))}>Delete</button>
        
               </div>
               </div>

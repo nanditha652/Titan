@@ -5,6 +5,7 @@ import fasTrack from "./constant/Fastrack";
 import SonataData from "./constant/Sonata";
 import titanData from './constant/Titan';
 import Navbar from './compent/Navbar';
+import Footer from './footer/Footer';
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import Homepage from './pages/Homepage';
 import Productcart from './pages/Productcart';
@@ -16,6 +17,7 @@ function App() {
 
       <BrowserRouter>
       <Navbar/>
+      
       {/* <Homepage/> */}
       <Routes>
         <Route path='/homepage' element={<Homepage/>}/>
@@ -24,9 +26,9 @@ function App() {
         <Route path='/titan' element={<Productpage data={titanData}/>}/>
         <Route path='/cart' element={<Productcart/>}/>
         <Route path='/fav' element={<Favourite/>}/>
+  
       </Routes>
-      
-      
+      <Footer/>
       </BrowserRouter>
 
   </div>

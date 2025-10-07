@@ -30,9 +30,9 @@ function Productcart() {
              
     <button className='movebtn' onClick={()=>dispatch(deleteFromcart(data))}>Delete</button>
     <div className='' style={{display:'flex',justifyContent:'center',marginBottom:'20px'}}>
-     <button className='incbtn' onClick={()=>{decrementCart(data.id,data.quantity)}}>-</button>
+     <button className='dicbtn' onClick={()=>{decrementCart(data.id,data.quantity)}}>-</button>
       {data.quantity}
-     <button className='dicbtn' onClick={()=>{incrementCart(data.id,data.quantity)}} >+</button>
+     <button className='incbtn' onClick={()=>{incrementCart(data.id,data.quantity)}} >+</button>
           </div>
           </div>
           </div>

@@ -1,0 +1,19 @@
+.btn8{
+  margin-bottom: 100px;
+  background-color: rgb(39, 37, 37);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn8:hover{
+  border:1px solid black !important;
+  color: black;
+  background-color: white;
+}
