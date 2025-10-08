@@ -1,3 +1,4 @@
+import React from 'react'
 import './Fav.css'
 
 import { useSelector, useDispatch } from 'react-redux';
