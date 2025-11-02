@@ -1,0 +1,37 @@
+.name1{
+  color:rgb(94, 93, 92);
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 540px;
+  margin-top: 40px;
+  
+}
+.name2{
+  color:rgb(94, 93, 92);
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 550px;
+  margin-top: 40px;
+  
+}
+.box{
+  border-radius: 30px;
+  border: solid 2px;
+}
+.box1{
+  border-radius: 30px;
+  border: solid 2px;
+}
+.btn4{
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 650px;
+  font-weight: bold;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

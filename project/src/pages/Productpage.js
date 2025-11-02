@@ -3,7 +3,7 @@ import React from 'react'
 import './Productpage.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { addTocart, deleteFromcart } from '../reactredux/Cartslice'
-import { favTocart,favdelete } from '../reactredux/Favslice'
+import { favTocart, favdelete } from '../reactredux/Favslice'
 function Productpage(props) {
 
     const cart = useSelector((state)=> state.cartvalue.cart);
@@ -17,7 +17,8 @@ function Productpage(props) {
     const deleteCart = (Item)=>{
         dispatch(deleteFromcart(Item))
     }
-        const addfav = (Item)=>{
+        
+    const addfav = (Item)=>{
         dispatch(favTocart(Item))
     }
 

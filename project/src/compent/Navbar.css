@@ -1,10 +1,11 @@
 .nav1{
     position: sticky;
     z-index: 1000;
+    font-family: Arial;
 }
 
 .nav{
-    font-family: sans-serif;
+    font-family: Arial;
 }
 
 ul{

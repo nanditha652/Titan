@@ -22,11 +22,18 @@ import dissporty from '../images/DiscoverSporty.webp'
 import gurant from '../images/Gurantee.svg'
 import retur from '../images/Return.svg'
 import ship from '../images/Shipping.svg'
+import { Helmet } from 'react-helmet-async';
+
 import './Homepage.css'
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
     <>
+    <Helmet>
+      <title>Titan Watch</title>
+      <meta name='dis' content='hi'/>
+    </Helmet>
     <div>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -181,7 +188,7 @@ function Homepage() {
 
     <center>
       <h2 className='cent'>LOGIN FOR THE BEST EXPERIENCE</h2>
-      <button className='btnlo'>LOGIN NOW</button>
+      <Link to='/register'><button className='btnlo'>REGISTER NOW</button></Link>
     </center>    
   </section></div>
 
